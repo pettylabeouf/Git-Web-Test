@@ -87,11 +87,9 @@ action="guardar_datos.php">
 	<input type="text"
 	name="username" value="hola">
 	<input type="submit" name="nombre" value="enviar">
+</form>
 
-	 </form>
-        <script>
-
-	
+<script>	
 var element=document.getElementById("texto");
 
 var html=""; 
@@ -102,12 +100,13 @@ for(i=0;i<10;i++){
 		html=html + "<td>" + i+ ":" +j + "</td>";
 
 	}
+	
 	html=html+"</tr>";
 }
 html=html+"</table>";
 element.innerHTML=html;
 
-	</script>
+	
 	function f(x){
 		var y;
 		y=x+1
@@ -120,7 +119,7 @@ function concat (x,y){
 	}
 	alert (concat("hola","tu"));
 
-	 
+	 </script>
 	</body>
 </html>
 
